@@ -7,11 +7,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0;
   background: #dee4eb;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
 }
 
 code {

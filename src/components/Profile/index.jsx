@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from 'components/Profile/styles.module.css';
 import classNames from 'classnames';
+
+import styles from 'components/Profile/styles.module.css';
 
 const Profile = ({
   username,

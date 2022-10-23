@@ -55,7 +55,7 @@
 
 .stats > li > span:first-child {
   font-size: 14px;
-  color: #a2adb0
+  color: #a2adb0;
 }
 
 .stats > li > span:last-child {
@@ -65,5 +65,9 @@
 
 /*common*/
 
-.greyColor { color: #ababab }
-.mb10 { margin-bottom: 10px; }
+.greyColor {
+  color: #ababab;
+}
+.mb10 {
+  margin-bottom: 10px;
+}

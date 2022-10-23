@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import styles from 'components/Statistics/styles.module.css';
 import { getRandomColor } from 'helpers/getRandomColor';
 
-const Statistics = ({
-                      title ,
-  stats
-}) => {
+const Statistics = ({ title, stats }) => {
   return (
     <section className={styles.statistics}>
       {title?.length && <h2 className={styles.title}>{title}</h2>}
@@ -25,11 +23,13 @@ const Statistics = ({
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string,
-    label: PropTypes.string,
-    percentage: PropTypes.number,
-  })),
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      label: PropTypes.string,
+      percentage: PropTypes.number,
+    })
+  ),
 };
 
 export default Statistics;
